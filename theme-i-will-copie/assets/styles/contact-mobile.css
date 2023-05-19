@@ -1,0 +1,10 @@
+@media(max-width:400px){
+    .contact-hamburger{
+        margin-top: -8px !important;
+    }
+}
+@media(max-width:360px){
+    .contact-hamburger{
+        margin-top: -27px !important;
+    }
+}

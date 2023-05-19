@@ -1,0 +1,2 @@
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/solix/assets/plugins/slick/css/slick.css">
+<link rel="stylesheet" type="text/css" href="/wp-content/themes/solix/assets/plugins/slick/css/slick-theme.css">

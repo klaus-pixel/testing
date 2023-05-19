@@ -1,0 +1,126 @@
+#active-hamburger{
+    display: none;
+}
+body {
+    background: #414042 !important;
+}
+.animsition-overlay-slide{
+    height: 110% !important;
+}
+@media (max-width: 1220px) {
+    .hamburger {
+        top: 7px !important;
+    }
+
+    .hamburger.is-active {
+        padding: 10px !important;
+        width: 40px !important;
+        height: 40px !important;
+        right: -3px !important;
+        position: absolute;
+        top: 7px !important;
+    }
+
+    #mobile-nav-section .mobile-group-button {
+        margin-top: 58px !important;
+        font-size: 10px;
+        padding-left: 36px !important;
+        padding-right: 36px !important;
+        font-weight: 700 !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .solix-heading {
+        margin-top: 8px !important;
+    }
+
+    /*#hamburger {
+        margin-top: -3px !important;
+    }*/
+
+    #mobile-nav-section {
+        z-index: 2 !important;
+    }
+
+    /*#hamburger {
+        position: relative;
+        z-index: 2;
+    }*/
+
+    .mobile-nav-logo {
+        padding: 2px 0 !important;
+        margin-bottom: 16px !important;
+    }
+}
+
+@media (max-width: 360px)
+    #hamburger {
+        margin-top: -3px !important;
+    }
+
+    nav {
+        padding: 19px 0 !important;
+    }
+
+    .bestyrelse-member-names h6 {
+        display: none;
+        line-height: 1;
+    }
+
+    .bestyrelse-member-names p {
+        display: none;
+    }
+
+	#bestyrelse-member-1, #bestyrelse-member-2,#bestyrelse-member-3,#bestyrelse-member-4,#bestyrelse-member-5,#bestyrelse-member-6,#bestyrelse-member-7{position: absolute;height:80%;top:20%;z-index: 1;cursor: pointer;}
+	
+    #bestyrelse-member-1 {
+		width: 18.82%;
+		left: 2.35%;
+    }
+
+    #bestyrelse-member-2 {
+        width: 17.64%;
+        left: 21.17%;
+    }
+
+    #bestyrelse-member-3 {
+        width: 14.11%;
+        left: 38.82%;
+    }
+
+    #bestyrelse-member-4 {
+        width: 11.76%;
+        left:52.94%;
+    }
+
+    #bestyrelse-member-5 {
+        width:15.29%;
+        left:67.7%;
+    }
+
+    #bestyrelse-member-6 {
+        width:16.47%;
+        left:80%;
+    }
+	
+	#bestyrelse-member-7 {
+        width:13.5%;
+        left:82.3%;
+    }
+
+    .transition {
+        animation: 1s ease-out 0s 1 slideInFromLeft;
+
+        /*background: #333;*/
+        /*padding: 30px;*/
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        pointer-events: none;
+        overflow: hidden;
+        background: red
+    }

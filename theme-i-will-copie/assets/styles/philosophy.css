@@ -1,0 +1,39 @@
+#active-hamburger{
+    display: none;
+}
+.pll-parent-menu-item::after {
+    /*
+	font-family: "Font Awesome 5 Free";
+    position: absolute !important;
+    content: '\f078' !important;
+    right: 0 !important;
+    top: 10px !important;
+    font-size: 9px !important;
+    font-weight: 600 !important;
+    color: #969496 !important;
+	*/
+	background-image: url(../images/arrow-down.svg);
+}
+#mobile-nav-section{
+    z-index: 2 !important;
+}
+
+@media(min-width: 1220px){
+    .logo{
+        margin: 3px 0 0 14px;
+    }
+}
+@media (max-width: 1220px){
+    .hamburger {
+        padding: 10px !important;
+        width: 40px !important;
+        height: 40px !important;
+        right: 12px !important;
+        position: absolute;
+        top: 3px !important;
+    }
+    .hamburger.is-active {
+        top: 7px !important;
+        z-index: 2;
+    }
+}
